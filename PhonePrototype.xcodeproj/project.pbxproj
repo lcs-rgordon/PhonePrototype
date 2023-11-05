@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		81635BF62AF7C37C00CC26B8 /* PhonePrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81635BF52AF7C37C00CC26B8 /* PhonePrototypeApp.swift */; };
-		81635BF82AF7C37C00CC26B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81635BF72AF7C37C00CC26B8 /* ContentView.swift */; };
 		81635BFA2AF7C37D00CC26B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81635BF92AF7C37D00CC26B8 /* Assets.xcassets */; };
 		81635BFD2AF7C37D00CC26B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81635BFC2AF7C37D00CC26B8 /* Preview Assets.xcassets */; };
+		81635C052AF7C3AE00CC26B8 /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81635C042AF7C3AE00CC26B8 /* FavouritesView.swift */; };
+		81635C072AF7C3B800CC26B8 /* RecentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81635C062AF7C3B800CC26B8 /* RecentsView.swift */; };
+		81635C092AF7C3CA00CC26B8 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81635C082AF7C3CA00CC26B8 /* ContactsView.swift */; };
+		81635C0B2AF7C3D700CC26B8 /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81635C0A2AF7C3D700CC26B8 /* KeypadView.swift */; };
+		81635C0D2AF7C3E100CC26B8 /* VoicemailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81635C0C2AF7C3E100CC26B8 /* VoicemailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		81635BF22AF7C37C00CC26B8 /* PhonePrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhonePrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81635BF52AF7C37C00CC26B8 /* PhonePrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePrototypeApp.swift; sourceTree = "<group>"; };
-		81635BF72AF7C37C00CC26B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		81635BF92AF7C37D00CC26B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81635BFC2AF7C37D00CC26B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81635C042AF7C3AE00CC26B8 /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		81635C062AF7C3B800CC26B8 /* RecentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsView.swift; sourceTree = "<group>"; };
+		81635C082AF7C3CA00CC26B8 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		81635C0A2AF7C3D700CC26B8 /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		81635C0C2AF7C3E100CC26B8 /* VoicemailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicemailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				81635BF52AF7C37C00CC26B8 /* PhonePrototypeApp.swift */,
-				81635BF72AF7C37C00CC26B8 /* ContentView.swift */,
+				81635C032AF7C38600CC26B8 /* Views */,
 				81635BF92AF7C37D00CC26B8 /* Assets.xcassets */,
 				81635BFB2AF7C37D00CC26B8 /* Preview Content */,
 			);
@@ -65,6 +73,18 @@
 				81635BFC2AF7C37D00CC26B8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81635C032AF7C38600CC26B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81635C042AF7C3AE00CC26B8 /* FavouritesView.swift */,
+				81635C062AF7C3B800CC26B8 /* RecentsView.swift */,
+				81635C082AF7C3CA00CC26B8 /* ContactsView.swift */,
+				81635C0A2AF7C3D700CC26B8 /* KeypadView.swift */,
+				81635C0C2AF7C3E100CC26B8 /* VoicemailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81635BF82AF7C37C00CC26B8 /* ContentView.swift in Sources */,
+				81635C0D2AF7C3E100CC26B8 /* VoicemailView.swift in Sources */,
+				81635C052AF7C3AE00CC26B8 /* FavouritesView.swift in Sources */,
+				81635C0B2AF7C3D700CC26B8 /* KeypadView.swift in Sources */,
+				81635C072AF7C3B800CC26B8 /* RecentsView.swift in Sources */,
 				81635BF62AF7C37C00CC26B8 /* PhonePrototypeApp.swift in Sources */,
+				81635C092AF7C3CA00CC26B8 /* ContactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

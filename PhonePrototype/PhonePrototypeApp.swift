@@ -11,7 +11,7 @@ import SwiftUI
 struct PhonePrototypeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FavouritesView()
         }
     }
 }
